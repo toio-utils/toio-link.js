@@ -1,0 +1,28 @@
+{
+  "name": "@toio-link/mock-noble",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Programus",
+  "keywords": [
+    "toio", "scratch-link"
+  ],
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": "https://github.com/toio-utils/toio-link.js",
+  "license": "MIT",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/noble": "^0.0.40"
+  },
+  "dependencies": {
+    "ws": "^8.2.2",
+    "noble": "^1.9.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
