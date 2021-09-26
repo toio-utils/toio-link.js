@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const { NearestScanner } = require('@toio/scanner')
+const { NearestScanner } = require('@toio-link/scanner')
 
 async function main() {
   // start a scanner to find the nearest cube

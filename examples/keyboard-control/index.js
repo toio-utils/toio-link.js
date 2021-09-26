@@ -6,7 +6,7 @@
  */
 
 const keypress = require('keypress')
-const { NearestScanner } = require('@toio/scanner')
+const { NearestScanner } = require('@toio-link/scanner')
 
 const DURATION = 700 // ms
 const SPEED = {

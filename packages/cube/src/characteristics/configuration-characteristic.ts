@@ -7,7 +7,7 @@
 
 import { EventEmitter } from 'events'
 import TypedEmitter from 'typed-emitter'
-import { Characteristic } from 'noble-mac'
+import { Characteristic } from '@toio-link/mock-noble'
 
 /**
  * @hidden

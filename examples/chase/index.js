@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const { NearScanner } = require('@toio/scanner')
+const { NearScanner } = require('@toio-link/scanner')
 
 // calculate chasing cube's motor speed
 function chase(jerryX, jerryY, tomX, tomY, tomAngle) {

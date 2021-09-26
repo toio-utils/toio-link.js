@@ -7,8 +7,8 @@
 
 import { EventEmitter } from 'events'
 import TypedEmitter from 'typed-emitter'
-import noble from 'noble-mac'
-import { Cube } from '@toio/cube'
+import noble from '@toio-link/mock-noble'
+import { Cube } from '@toio-link/cube'
 
 interface Event {
   start: () => void

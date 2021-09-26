@@ -12,3 +12,6 @@ lerna-debug.log
 # others
 packages/*/lib
 docs/
+
+# IDE
+.vscode/

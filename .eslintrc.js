@@ -26,8 +26,9 @@ module.exports = {
       [
         '*',
         {
-          pattern: ' \\* Copyright \\(c\\) \\d{4}-present\\, Sony Interactive Entertainment Inc\\.',
-          template: ' * Copyright (c) 2019-present, Sony Interactive Entertainment Inc.',
+          pattern: '(?: \\* Copyright \\(c\\) \\d{4}-present\\, Sony Interactive Entertainment Inc\\.|.*)',
+          // template: ' * Copyright (c) 2019-present, Sony Interactive Entertainment Inc.',
+          template: ' * Author: programus',
         },
         ' *',
         ' * This source code is licensed under the MIT license found in the',

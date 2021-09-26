@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "@toio/root",
+  "name": "@toio-link/root",
   "workspaces": [
     "packages/*",
     "examples/*"
   ],
   "repository": "https://github.com/toio/toio.js",
-  "author": "Sony Interactive Entertainment Inc.",
+  "author": "Programus (programus@gmail.com)",
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
